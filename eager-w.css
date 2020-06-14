@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    background-color: #4e4e50;
+    height: 10vh;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.logo-container, .nav-links, .cart{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+}
+
+nav{
+    flex: 2;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+
+.cart{
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.intro{
+    width: 80%;
+    height: 20px auto;
+    margin: 40px auto;
+    background-image: url(./desk.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro-text{
+    width: 30%;
+    background-color: rgba(0,0,0,.4);
+}
+
+.intro-head{
+    margin: 10px 5px 10px 10px;
+    font-size: 30px;
+
+}
+
+.intro-p{
+    margin: 10px 5px 10px 10px;
+    font-size: 25px;
+}
+
+.middle{
+    width: 80%;
+    height: 20px auto;
+    margin: 20px auto;
+    background-image: url(./laptop-headphones.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.middle-text{
+    width: 30%;
+    background-color: rgba(0,0,0,.4);
+}
+
+.middle-head{
+    margin: 10px 5px 10px 10px;
+    font-size: 30px;
+}
+
+.middle-p{
+    margin: 10px 5px 10px 10px;
+    font-size: 25px;
+}
+
+.end{
+    width: 80%;
+    height: 20px auto;
+    margin: 20px auto;
+    background-image: url(./desk-book.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.end-text{
+    width: 30%;
+    background-color: rgba(0,0,0,.4);
+}
+
+.end-head{
+    margin: 10px 5px 10px 10px;
+    font-size: 30px;
+}
+
+.end-p{
+    margin: 10px 5px 10px 10px;
+    font-size: 25px;
+}
+
+footer{
+    background-color: #4e4e50;
+    font-size: 20px;
+    width: 80%;
+    margin: 30px auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    height: 7vh;
+}
+
+/*
+<div class="intro">
+            <div class="intro-text">
+                <h4 class="intro-head">This is a heading</h4>
+                <p class="intro-p">This is something that I will later replace with something worthwhile. For now I will just have to keep 
+                typing and typing. This will continue for another line or so at which point I will have enough written to take up the space I need.This is something that I will later replace with something worthwhile. For now I will just have to keep 
+                typing and typing. This will continue for another line or so at which point I will have enough written to take up the space I need.This is something that I will later replace with something worthwhile. For now I will just have to keep 
+                typing and typing. This will continue for another line or so at which point I will have enough written to take up the space I need.
+                </p>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="middle-text">
+                <h4 class="middle-head">This is another heading.</h4>
+                <p class="intro-p">This is something that I will later replace with something worthwhile. For now I will just have to keep 
+                    typing and typing. This will continue for another line or so at which point I will have enough written to take up the space I need.This is something that I will later replace with something worthwhile. For now I will just have to keep 
+                    typing and typing. This will continue for another line or so at which point I will have enough written to take up the space I need.This is something that I will later replace with something worthwhile. For now I will just have to keep 
+                    typing and typing. This will continue for another line or so at which point I will have enough written to take up the space I need.
+                </p>
+            </div>
+        </div>
+*/
